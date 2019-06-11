@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>404</title>
+    <link href="{% static 'cucrrency_static/register_files/topbar.css' %}" type="text/css" rel="Stylesheet">
+    <link href="{% static 'cucrrency_static/register_files/style_kj.css' %}" type="text/css" rel="stylesheet">
+    <link href="{% static 'cucrrency_static/register_files/demo.css' %}" type="text/css" rel="stylesheet">
+    <link href="{% static 'cucrrency_static/register_files/total.css' %}" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="{% static 'cucrrency_static/register_files/jquery-1.2.pack.js' %}"></script>
+<script type="text/javascript">
+var theme_list_open = false;
+</script>
+<script type="text/javascript">
+function Responsive($a) {
+	if ($a == true) $("#Device").css("opacity", "100");
+	if ($a == false) $("#Device").css("opacity", "0");
+	$('#iframe-wrap').removeClass().addClass('full-width');
+	$('.icon-tablet,.icon-mobile-1,.icon-monitor,.icon-mobile-2,.icon-mobile-3').removeClass('active');
+	$(this).addClass('active');
+	return false;
+};
+</script>
+</head>
+<body id="by" style="background: url({% static 'cucrrency_static/register_files/jianzhu.jpg'%})">
+<div id="iframe-wrap">
+
+		    <iframe id="iframe" src="{% static 'cucrrency_static/register_files/moban2266.html' %}" frameborder="0" width="100%" height="580px"> </iframe>
+
+
+
+</div>
+
+	<script type="text/javascript">
+
+	    var description = '404';
+
+
+
+	    var sendT = {
+	        getHeader: function () {
+	            var g_title = description;
+	            var re = /<[^<>]*?font[^<>]*?>/gi;
+	            g_title = g_title.replace(re, "");
+	            return g_title;
+	        },
+	        getFirstImgSrc: function () {
+	            var allPageTags = document.getElementsByTagName("div");
+	            for (var i = 0; i < allPageTags.length; i++) {
+	                if (allPageTags[i].className == 'downtext') {
+	                    if (allPageTags[i].getElementsByTagName("img")[0] && allPageTags[i].getElementsByTagName("img")[0].width > 200) {
+	                        return allPageTags[i].getElementsByTagName("img")[0].src;
+	                    }
+	                    else {
+	                        return null;
+	                    }
+
+	                }
+	            }
+	        }
+	    }
+</script>
+
+</body></html>
