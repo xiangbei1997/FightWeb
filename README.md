@@ -16,6 +16,15 @@ A website based on Django
   * etc.
 <br>
 <br>
+
+
+<br>
+
+
+   * Please use it in virtual environment
+     * Create app：python manage.py startapp And add appmingcheng to setting and INSTALLED_APPS add app name
+     * If you need static files, configure them in static files
+     * If you need html, add it to templates
 <br>
 
 
