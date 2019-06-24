@@ -1,22 +1,49 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, response
 import pandas as pd
 import json
 import re
+import sys
+import redis
+import numpy as np
+
+pool = redis.ConnectionPool(host='106.12.112.207', password='tongna888')
+r = redis.Redis(connection_pool=pool)
+
+area_file = '%s\static\Analisis_static\data_csv\%s\%s' % (sys.path[1], 'Record', 'area.csv')
+record_file = '%s\static\Analisis_static\data_csv\%s\%s' % (sys.path[1], 'Record', 'data_company_record.csv')
+companyAll_file = '%s\static\Analisis_static\data_csv\%s\%s' % (sys.path[1], 'Record', 'data_companyAll.csv')
+area = pd.read_csv(area_file, low_memory=False)
+record = pd.read_csv(record_file, low_memory=False)
+company = pd.read_csv(companyAll_file, low_memory=False)
+company = company.set_index('id', drop=False)
+record = record.set_index('id', drop=False)
+area = area.set_index('id')
+area = area.drop(['addDate', 'ids'], axis=1)
+area = area.drop(1, axis=0)
+
+
+# Company_line = []
+# for p, d in area['name'].to_dict().items():
+#     d = re.sub('["省"，"壮族自治区", "回族自治区", "市","维吾尔自治区"]', '', d)
+#     Company_line.append([{'name': str(d), 'value': 1}])
+#     area.loc[p, 'name'] = d
+
 
 # Create your views here.
 
 
 # 资金分析数据
 def CapitalData(request):
-    f = 'E:/xx.csv'
-    area = pd.read_csv('E:/area.csv')
+    area_file = '%s\static\Analisis_static\data_csv\c%s\%s' % (sys.path[1], 'apital_csv', 'area.csv')
+    company_file = '%s\static\Analisis_static\data_csv\c%s\%s' % (sys.path[1], 'apital_csv', 'xx.csv')
+    area = pd.read_csv(area_file)
 
-    data = pd.read_csv(f, parse_dates=['addDate', 'lastDate', 'sourceData',
-                                       'validTime', 'regTime', 'startDate',
-                                       'endDate', 'updateDate', 'checkDate',
-                                       'apprDate',
-                                       ])
+    data = pd.read_csv(company_file, parse_dates=['addDate', 'lastDate', 'sourceData',
+                                                  'validTime', 'regTime', 'startDate',
+                                                  'endDate', 'updateDate', 'checkDate',
+                                                  'apprDate',
+                                                  ])
     data = data.dropna(subset=['money'])
     allc = data['money'].sum()
     cc = data.groupby('area_id')['money'].sum()
@@ -24,8 +51,8 @@ def CapitalData(request):
     for index, cdata in cc.iteritems():
         every_province = area[area['id'] == index]['name']
         province_name = every_province.get_values()[0]
-        company_all = data[data['area_id'] == index]['money'].count()
         name = re.sub('["省"，"壮族自治区", "回族自治区", "市","维吾尔自治区"]', '', province_name)
+        company_all = data[data['area_id'] == index]['money'].count()
         average = cdata / company_all
         cc = {}
         vv = {'name': name, 'value': []}
@@ -60,9 +87,79 @@ def CapitalData(request):
         cc['name'] = str(name)
         xxx['province'].append(cc)
         xxx['info'].append(vv)
+    print(xxx['province'])
     return HttpResponse(json.dumps(xxx))
 
 
 # 资金页面
 def CapitalExhibition(request):
-    return render(request, 'fight_templates/AllConstructionCompany.html')
+    return render(request, 'analysis_templates/AllConstructionCompany.html')
+
+
+# 资质页面
+def Seniority(request):
+    pass
+
+
+# 资质页面
+def SeniorityData(request):
+    pass
+
+
+# 备案页面
+def RecordPage(request):
+    return render(request, 'analysis_templates/Record.html')
+
+
+# 备案数据
+def RecordData(request):
+    if request.method == 'POST':
+        Company_name = request.POST.get('CompanyName')
+        dataType = request.POST.get('type')
+        if Company_name:
+            companyInfo = company[company['name'] == Company_name]
+            companydict = companyInfo.to_dict(orient='records')
+            RegistrationArea = companydict[0]['area_id']
+            CompanyID = companydict[0]['id']
+            nowProvince = area.loc[RegistrationArea]['name']
+            ToProvinceRegistration = record[record['company_id'] == CompanyID].groupby('company_id')['area_id']
+            Company_line = []
+            for p, d in area['name'].to_dict().items():
+                d = re.sub('["省"，"壮族自治区", "回族自治区", "市","维吾尔自治区"]', '', d)
+                Company_line.append([{'name': str(d), 'value': 1}])
+                area.loc[p, 'name'] = d
+            for index, data in ToProvinceRegistration:
+                companydict[0]['areaNumber'] = len(data)
+                for a in list(data):
+                    provinceName = area.loc[a]['name']
+                    Company_line.append([{'name': nowProvince, 'value': str(len(data))}, {'name': str(provinceName)}])
+
+            Cdata = {'line': Company_line, 'companyinfo': companydict[0]}
+            return HttpResponse(json.dumps(Cdata))
+        if int(dataType):
+            ProvinceData = r.mget('ProvinceIntoRecord')
+            data = json.loads(ProvinceData[0])
+            data['type'] = '各省企业到外省备案top10'
+            return HttpResponse(json.dumps(data))
+    CertProportion = r.mget('recordAll')
+    CertProportion = json.loads(CertProportion[0])
+    CertProportion['type'] = '省份存在备案企业top10'
+    return HttpResponse(json.dumps(CertProportion))
+
+
+def Record2(request):
+    return render(request, 'analysis_templates/Record2.html')
+
+
+def Search(request):
+    return render(request, 'analysis_templates/Search.html')
+
+
+def vagueSearch(request):
+    companyName = request.POST.get('name')
+    if companyName:
+        name = list(company.loc[company['name'].str.contains(companyName)]['name'].values)
+        if name:
+            name = name[:10]
+            return HttpResponse(json.dumps(name))
+    return HttpResponse(json.dumps({'name': '中北交通建设集团有限公司'}))

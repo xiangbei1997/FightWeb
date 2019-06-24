@@ -13,13 +13,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FightCity/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="262">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/First/first_url.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FightCity/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1585">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
+              <folding>
+                <element signature="e#1717#1800#0" />
+                <element signature="e#1830#1936#0" />
+                <element signature="e#1985#2500#0" />
+                <element signature="e#2639#2767#0" />
+                <element signature="e#2898#3294#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Analysis/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="163" selection-start-line="163" selection-end-line="163" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/analysis_templates/Record.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="e#1439#38952#0#HTML" />
+                <element signature="e#1556#2248#0#HTML" />
+                <element signature="e#1700#2234#0#HTML" />
+                <element signature="e#2298#3793#0#HTML" />
+                <element signature="e#3834#30102#0#HTML" />
+                <element signature="e#14343#16369#0#HTML" />
+                <element signature="e#21384#21487#0#HTML" />
+                <element signature="e#30152#31269#0#HTML" />
+                <element signature="e#30451#31213#0#HTML" />
+                <element signature="e#31298#38939#0#HTML" />
+                <element signature="e#33072#35844#0#HTML" />
+                <element signature="e#35949#37485#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/ProvinceRecord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="179" column="20" lean-forward="true" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#276#2008#0" />
+                <element signature="e#2006#4103#0" />
+                <element signature="e#4340#8901#0" />
+                <element signature="e#5148#5588#0" />
+                <element signature="e#5873#6209#0" />
+                <element signature="e#6291#8614#0" />
+                <element signature="e#7286#8492#0" />
+                <element signature="e#8922#9294#0" />
+                <element signature="e#9118#10967#0" />
               </folding>
             </state>
           </provider>
@@ -30,45 +115,45 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>200</find>
+      <find>CORS_ALLOW_CREDENTIALS</find>
+      <find>Analysiscorsheaders</find>
+      <find>Access-Control-Allow-Origin</find>
+      <find>Mi</find>
+      <find>CORS_ORIGIN_REGEX_WHITELIST</find>
+      <find>corsheaders.middleware.CorsMiddleware</find>
+      <find>CORS_ORIGIN_WHITELIST</find>
+      <find>application</find>
+      <find>“</find>
+      <find>”</find>
+      <find />
+      <find>whitenoise</find>
+      <find>MIDDLEWARE</find>
+      <find>django.middleware.common.CommonMiddleware</find>
+      <find>CORS_REPLACE_HTTPS_REFERER</find>
+      <find>Access-Control-Request-Headers</find>
+      <find>django.middleware.csrf.CsrfViewMiddleware</find>
+      <find>CORS_ORIGIN_ALLOW_ALL</find>
+      <find>CORS_ALLOW_HEADERS</find>
+      <find>consolog</find>
+      <find>$('#number').html('');</find>
+      <find>$autocomplete</find>
+      <find>search</find>
+      <find>SelectData</find>
+      <find>Company_name</find>
+      <find>GetNewData</find>
+      <find>companyname</find>
+      <find>companyinfo</find>
+      <find>click</find>
       <find>top</find>
-      <find>formatter</find>
-      <find>if</find>
-      <find>symbolSize</find>
-      <find>geoCoord</find>
-      <find>geoCoordMap</find>
-      <find>console.log</find>
-      <find>3</find>
-      <find>LOG_CRITICAL_THRESHOLD</find>
-      <find>restart</find>
-      <find>SIGTERM</find>
-      <find>DEBUG</find>
-      <find>js</find>
-      <find>Home_files</find>
-      <find>ModelApp</find>
-      <find>order_files</find>
-      <find>register_files</find>
-      <find>下载</find>
-      <find>.下载</find>
-      <find>./register_files</find>
-      <find>./</find>
-      <find>{% static 'cucrrency_static' %}</find>
-      <find>switcher</find>
-      <find>w3layout-agileits</find>
-      <find>w3footeragile</find>
-      <find>images</find>
-      <find>total</find>
-      <find>#</find>
-      <find>{</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -91,8 +176,6 @@
         <option value="$PROJECT_DIR$/templates/fight_templates/order.html" />
         <option value="$PROJECT_DIR$/templates/fight_templates/register.html" />
         <option value="$PROJECT_DIR$/First/first_url.py" />
-        <option value="$PROJECT_DIR$/FightCity/settings.py" />
-        <option value="$PROJECT_DIR$/FightCity/urls.py" />
         <option value="$PROJECT_DIR$/templates/first_templates/first.html" />
         <option value="$PROJECT_DIR$/First/views.py" />
         <option value="$PROJECT_DIR$/static/cucrrency_static/register_files/jquery-1.2.pack.js" />
@@ -101,23 +184,38 @@
         <option value="$PROJECT_DIR$/static/cucrrency_static/register_files/moban2266.html" />
         <option value="$PROJECT_DIR$/FightApp/views.py" />
         <option value="$PROJECT_DIR$/FightApp/fight_url.py" />
-        <option value="$PROJECT_DIR$/Analysis/views.py" />
-        <option value="$PROJECT_DIR$/Analysis/analysis_url.py" />
         <option value="$PROJECT_DIR$/templates/fight_templates/AllConstructionCompany.html" />
+        <option value="$PROJECT_DIR$/Analysis/migrations/TEST1.py" />
+        <option value="$PROJECT_DIR$/templates/analysis_templates/Record2.html" />
+        <option value="$PROJECT_DIR$/templates/analysis_templates/AllConstructionCompany.html" />
+        <option value="$PROJECT_DIR$/FightCity/settings.py" />
+        <option value="$PROJECT_DIR$/templates/analysis_templates/test.html" />
+        <option value="$PROJECT_DIR$/Analysis/analysis_url.py" />
+        <option value="$PROJECT_DIR$/Analysis/TEST1.py" />
+        <option value="$PROJECT_DIR$/FightCity/urls.py" />
+        <option value="$PROJECT_DIR$/templates/analysis_templates/Search.html" />
+        <option value="$PROJECT_DIR$/templates/analysis_templates/Record.html" />
+        <option value="$PROJECT_DIR$/Analysis/tests.py" />
+        <option value="$PROJECT_DIR$/Analysis/test3.py" />
+        <option value="$PROJECT_DIR$/Analysis/migrations/Able.py" />
+        <option value="$PROJECT_DIR$/Analysis/IntoProvinceRecord.py" />
+        <option value="$PROJECT_DIR$/Analysis/ProvinceRecord.py" />
+        <option value="$PROJECT_DIR$/Analysis/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="177" />
-    <option name="y" value="153" />
-    <option name="width" value="1255" />
-    <option name="height" value="825" />
+    <option name="x" value="807" />
+    <option name="y" value="197" />
+    <option name="width" value="848" />
+    <option name="height" value="528" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,32 +223,46 @@
               <item name="FightCity" type="b2602c69:ProjectViewProjectNode" />
               <item name="FightCity" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FightCity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FightCity" type="462c0819:PsiDirectoryNode" />
+              <item name="Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FightCity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FightCity" type="462c0819:PsiDirectoryNode" />
+              <item name="Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/cucrrency_static/register_files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python_web_code\FightCity\templates\fight_templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python_web_code\FightCity\static\Analisis_static\data_csv\ReCord" />
+      <recent name="E:\python_web_code\FightCity\static\Analisis_static\data_csv\Seniority" />
+      <recent name="E:\python_web_code\FightCity\static\Analisis_static\data_csv\province_record" />
+      <recent name="E:\python_web_code\FightCity\static\Analisis_static\data_csv\capital_csv" />
       <recent name="E:\python_web_code\FightCity\static\cucrrency_static\register_files" />
-      <recent name="E:\python_web_code\FightCity\templates\currency" />
-      <recent name="E:\python_web_code\FightCity\static\cucrrency_static" />
-      <recent name="E:\python_web_code\FightCity\static\fightAppstatic" />
-      <recent name="E:\python_web_code\FightCity\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python_web_code\FightCity\templates\analysis_templates" />
+      <recent name="E:\python_web_code\FightCity\Analysis" />
+      <recent name="E:\python_web_code\FightCity\static\Analisis_static\data_csv\capital_csv" />
+      <recent name="E:\python_web_code\FightCity\static\Analisis_static" />
+      <recent name="E:\python_web_code\FightCity\templates\fight_templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,7 +277,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.FightCity">
+  <component name="RunManager" selected="Python.test3">
+    <configuration name="TEST1" type="PythonConfigurationType" factoryName="Python">
+      <module name="FightCity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python_web_code\FightCity\Analysis\TEST1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FightCity" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,6 +314,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FightCity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python_web_code\FightCity\Analysis\IntoProvinceRecord.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FightCity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python_web_code\FightCity\Analysis\ProvinceRecord.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,6 +388,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FightCity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FightCity" type="Python.DjangoServer" factoryName="Django server">
       <module name="FightCity" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,7 +425,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="9877" />
-      <option name="host" value="127.0.0.1" />
+      <option name="host" value="192.168.199.208" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -236,11 +436,18 @@
     </configuration>
     <list>
       <item itemvalue="Django server.FightCity" />
+      <item itemvalue="Python.TEST1" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.manage" />
+      <item itemvalue="Python.tests (1)" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.tests (1)" />
+        <item itemvalue="Python.views" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.tests" />
       </list>
@@ -265,225 +472,95 @@
       <workItem from="1559693764385" duration="4410000" />
       <workItem from="1559705740967" duration="4848000" />
       <workItem from="1559780888861" duration="7315000" />
-      <workItem from="1560128283735" duration="11066000" />
+      <workItem from="1560128283735" duration="34023000" />
+      <workItem from="1560472379543" duration="27295000" />
+      <workItem from="1560732116781" duration="27448000" />
+      <workItem from="1560817712655" duration="24108000" />
+      <workItem from="1560903907999" duration="28973000" />
+      <workItem from="1560990445223" duration="26954000" />
+      <workItem from="1561076099741" duration="28327000" />
+      <workItem from="1561162403770" duration="10190000" />
+      <workItem from="1561172632623" duration="576000" />
+      <workItem from="1561173219039" duration="982000" />
+      <workItem from="1561174212437" duration="13479000" />
+      <workItem from="1561335768672" duration="6131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87039000" />
+    <option name="totallyTimeSpent" value="304459000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49896908" visible="true" weight="0.2808311" />
+      <window_info id="Structure" order="1" sideWeight="0.5010309" side_tool="true" weight="0.18766756" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.80622345" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.28429985" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.24304539" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5373353" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.49080622" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4596888" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42459735" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.47877014" />
+      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.5020107" side_tool="true" weight="0.5036603" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5020107" side_tool="true" weight="0.26793557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49896908" visible="true" weight="0.1575067" />
+      <window_info id="Structure" order="1" sideWeight="0.5010309" side_tool="true" weight="0.18766756" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.80622345" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.045387994" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5373353" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.043923866" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.5020107" side_tool="true" weight="0.5036603" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5020107" side_tool="true" weight="0.26793557" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FightCity$views.coverage" NAME="views Coverage Results" MODIFIED="1560936905023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
+    <SUITE FILE_PATH="coverage/FightCity$TEST1.coverage" NAME="TEST1 Coverage Results" MODIFIED="1561185720142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/FightCity$tests.coverage" NAME="tests Coverage Results" MODIFIED="1559608072378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ModelApp" />
     <SUITE FILE_PATH="coverage/FightCity$manage.coverage" NAME="manage Coverage Results" MODIFIED="1560238635212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FightCity$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1561338046895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
+    <SUITE FILE_PATH="coverage/FightCity$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1561338305415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/order_files/css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/order_files/img_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/register_files/jquery-1.9.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/register_files/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1670">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/register_files/jquery.easing.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-739">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/http/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/register_files/jQuery.time.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="75" column="10" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/echarts.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/earth.html" />
-    <entry file="file://$PROJECT_DIR$/static/order_files/201903182.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/map/shine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2756">
-          <caret line="155" column="25" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/china.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jqure.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/chinamap.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bmap.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1183">
-          <caret line="1030" column="24" selection-start-line="1030" selection-start-column="24" selection-end-line="1030" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="1235" column="4" selection-start-line="1235" selection-start-column="4" selection-end-line="1235" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/scrapydweb_settings_v8.py" />
-    <entry file="file://$PROJECT_DIR$/FightApp/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fightAppstatic/Home_files/css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fight_templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="179" column="42" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fight_templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fight_templates/xx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="71" lean-forward="true" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FightApp/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FightCity/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fight_templates/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="496" column="27" lean-forward="true" selection-start-line="496" selection-start-column="27" selection-end-line="496" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fight_templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/urls/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FightCity/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -506,18 +583,10 @@
         <state relative-caret-position="-243" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/cucrrency_static/register_files/jquery-1.2.pack.js.下载">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/currency/moban2266.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/cucrrency_static/register_files/stat.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/cucrrency_static/register_files/core.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/cucrrency_static/register_files/jquery-1.2.pack.js.下载" />
+    <entry file="file://$PROJECT_DIR$/templates/currency/moban2266.html" />
+    <entry file="file://$PROJECT_DIR$/static/cucrrency_static/register_files/stat.php" />
+    <entry file="file://$PROJECT_DIR$/static/cucrrency_static/register_files/core.php" />
     <entry file="file://$PROJECT_DIR$/static/cucrrency_static/register_files/jquery-1.2.pack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -552,48 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/First/first_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/First/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fight_templates/AllConstructionCompany.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#106#3030#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/analysis_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,12 +648,282 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/capital_csv/area.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/capital_csv/xx.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/Seniority/area.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7513" column="59" selection-start-line="7513" selection-start-column="51" selection-end-line="7513" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/core/window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1026" column="8" selection-start-line="1026" selection-start-column="8" selection-end-line="1026" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/ReCord/area.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/ReCord/data_company_record.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/Seniority/data_cert.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/ReCord/data_company.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="27">
+          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/Seniority/data_company.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/js/bmap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fight_templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="1314" column="7" lean-forward="true" selection-start-line="1314" selection-start-column="7" selection-end-line="1314" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/94147901/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="2958" column="8" selection-start-line="2958" selection-start-column="8" selection-end-line="2958" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/fightAppstatic/order_files/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82" lean-forward="true" selection-start-column="82" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="350064" selection-start-line="21" selection-start-column="350064" selection-end-line="21" selection-end-column="350064" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Analisis_static/data_csv/ReCord/data_companyAll.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/analysis_templates/Record2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="2006" column="17" selection-start-line="2006" selection-start-column="17" selection-end-line="2006" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/wsgiref/simple_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/redis/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fight_templates/xx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10083">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/analysis_templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/analysis_templates/Search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4293">
+          <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+          <folding>
+            <element signature="e#364#7351#0#HTML" />
+            <element signature="e#1320#1872#0#HTML" />
+            <element signature="e#1627#1684#0#HTML" />
+            <element signature="e#2032#2150#0#HTML" />
+            <element signature="e#2713#4722#0#HTML" />
+            <element signature="e#2869#4134#0#HTML" />
+            <element signature="e#4849#6137#0#HTML" />
+            <element signature="e#6182#6693#0#HTML" />
+            <element signature="e#6812#6937#0#HTML" />
+            <element signature="e#7038#7339#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/analysis_templates/AllConstructionCompany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="314" column="13" selection-start-line="314" selection-start-column="13" selection-end-line="314" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/analysis_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FightCity/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        <state relative-caret-position="262">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/migrations/Able.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/IntoProvinceRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/analysis_templates/Record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#1439#38952#0#HTML" />
+            <element signature="e#1556#2248#0#HTML" />
+            <element signature="e#1700#2234#0#HTML" />
+            <element signature="e#2298#3793#0#HTML" />
+            <element signature="e#3834#30102#0#HTML" />
+            <element signature="e#14343#16369#0#HTML" />
+            <element signature="e#21384#21487#0#HTML" />
+            <element signature="e#30152#31269#0#HTML" />
+            <element signature="e#30451#31213#0#HTML" />
+            <element signature="e#31298#38939#0#HTML" />
+            <element signature="e#33072#35844#0#HTML" />
+            <element signature="e#35949#37485#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/TEST1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#1936#2765#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/ProvinceRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="179" column="20" lean-forward="true" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#276#2008#0" />
+            <element signature="e#2006#4103#0" />
+            <element signature="e#4340#8901#0" />
+            <element signature="e#5148#5588#0" />
+            <element signature="e#5873#6209#0" />
+            <element signature="e#6291#8614#0" />
+            <element signature="e#7286#8492#0" />
+            <element signature="e#8922#9294#0" />
+            <element signature="e#9118#10967#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightCity/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1585">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="e#1717#1800#0" />
+            <element signature="e#1830#1936#0" />
+            <element signature="e#1985#2500#0" />
+            <element signature="e#2639#2767#0" />
+            <element signature="e#2898#3294#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/First/first_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

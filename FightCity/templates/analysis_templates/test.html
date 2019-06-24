@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load  staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="{% static 'Analisis_static/js/jqure.js' %}"></script>
+<script>
+    var data = {
+        'key': '中',
+        'token': 'eyJhbGciOiJIUzUxMiIsInppcCI6IkdaSVAifQ.H4sIAAAAAAAAAKtWKi5NUrJSMlLSUUqtKFCyMjS1NLQ0NTAyMKkFAP_WeYAcAAAA.smnZFqkrraRtg5y8z0mdLZvwtGKHBQi8SvZ8wqEjjnA4FJ-BTx9wohz4pOA5FcEiL9lft0yCPRGlwTCfJie1gQ',
+        'area': -1,
+        'no': 1
+    };
+    console.log(JSON.stringify(data))
+    $.ajax({
+        'url': 'https://api.maotouin.com/json/companyhandler/search.htm',             //服务器的地址 
+        'dataType': 'json',             //返回数据类型 
+        'type': 'POST',             //请求类型 
+        contentType: 'application/json',
+        data: JSON.stringify(data),
+        'success': function (data) {
+            console.log(data)
+        }
+    });
+</script>
+</body>
+</html>
