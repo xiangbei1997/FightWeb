@@ -1,0 +1,63 @@
+//
+tongna.xiangbei.exp0.tif
+
+//训练字体
+tesseract tongna.xiangbei.exp0.tif tongna.xiangbei.exp0 -l chi_sim  batch.nochop makebox
+
+tesseract tongna.xiangbei.exp0.tif tongna.xiangbei.exp0 -l chi_sim -psm 7 batch.nochop makebox
+
+
+//使用tesseract生成.tr训练文件:
+tesseract tongna.xiangbei.exp0.tif tongna.xiangbei.exp0 nobatch box.train
+
+
+//生成字符集文件：
+执行下面命令：执行完之后会在当前目录生成一个名为“unicharset”的文件。
+unicharset_extractor tongna.xiangbei.exp0.box
+
+//生成shape文件：
+
+执行下面命令，执行完之后，会生成 shapetable 和 zwp.unicharset 两个文件。
+shapeclustering -F font_properties -U unicharset -O tongna.unicharset tongna.xiangbei.exp0.tr
+
+
+
+//生成聚字符特征文件：
+
+执行下面命令，会生成 inttemp、pffmtable、shapetable和zwp.unicharset四个文件。
+
+mftraining -F font_properties -U unicharset -O tongna.unicharset tongna.xiangbei.exp0.tr
+
+
+
+//生成字符正常化特征文件：
+
+执行下面命令，会生成 normproto 文件。
+
+cntraining tongna.xiangbei.exp0.tr
+
+
+
+//文件重命名：
+
+重新命名inttemp、pffmtable、shapetable和normproto这四个文件的名字为[lang].xxx。
+
+这里修改为zwp.inttemp、zwp.pffmtable、zwp.shapetable和zwp.normproto
+
+执行下面命令：
+
+rename normproto tongna.normproto
+rename inttemp tongna.inttemp
+rename pffmtable tongna.pffmtable
+rename shapetable tongna.shapetable
+
+
+
+//合并训练文件：
+
+执行下面命令，会生成zwp.traineddata文件。
+
+combine_tessdata tongna.
+
+//找到
+训练好的语言,然后添加到ocr里的data语言中使用 lang='tongna'
